@@ -1,0 +1,99 @@
+.hero {
+  padding-bottom: 123px;
+}
+
+.hero__block {
+  padding: 117px 0;
+  background-repeat: no-repeat;
+  background-image: url('../../img/coffee.png');
+  border-radius: 10px;
+  margin-bottom: 136px;
+}
+
+.hero__content-block {
+  padding: 0 85px;
+}
+
+.hero__title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  max-width: 493px;
+  margin-bottom: 32px;
+}
+
+.hero__text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  max-width: 445px;
+  margin-bottom: 65px;
+}
+
+.hero__btn {
+  background: #0E8784;
+  border-radius: 6px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #FEFCF7;
+  padding: 15px 31px;
+  display: inline-block;
+}
+
+@media screen and (max-width:900px) {
+  .hero__block {
+    background-image: url('../../img/coffeetab.png');
+    background-size: cover;
+    background-position-x: right;
+  }
+
+  .hero__title {
+    font-size: 48px;
+    line-height: 48px;
+    max-width: 329px;
+  }
+
+  .hero__text {
+    font-size: 15px;
+    line-height: 25px;
+    max-width: 398px;
+  }
+}
+
+@media screen and (max-width:554px) {
+  .hero__block {
+    background-image: url('../../img/coffeetel.jpg');
+  }
+
+  .hero__block {
+    padding: 100px 0;
+  }
+
+  .hero__content-block {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+
+  .hero__title {
+    font-size: 40px;
+    line-height: 40px;
+    max-width: 100%;
+  }
+
+  .hero__text {
+    max-width: 100%;
+  }
+}
